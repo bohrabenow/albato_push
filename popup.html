@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Push Key</title>
+  <style>
+    body { font-family: Arial; padding: 20px; width: 300px; }
+    button { background: #4285f4; color: white; border: none; padding: 10px; cursor: pointer; }
+    button:hover { background: #3367d6; }
+    #status { color: green; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>API Ключ:</h3>
+  <textarea id="key" rows="3" readonly style="width:100%; font-family:monospace;"></textarea>
+  <br>
+  <button id="copy">📋 Копировать в буфер</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
