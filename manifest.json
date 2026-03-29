@@ -1,9 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "Push Notifications",
+  "name": "Albato push notification",
+  "short_name": "Albato Pushes",
   "version": "1.0",
+  "description": "Получайте push-уведомления от Albato",
   "permissions": ["storage", "alarms", "notifications"],
   "host_permissions": ["http://37.233.83.81:3000/*"],
   "background": {"service_worker": "background.js"},
-  "action": {"default_popup": "popup.html"}
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Albato Push Notifications\nНажмите для управления пушами"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
