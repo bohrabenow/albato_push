@@ -46,7 +46,7 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
   if (!apiKey) return;
 
   try {
-    const res = await fetch(`http://37.233.83.81:3000/check?key=${apiKey}`);
+    const res = await fetch(`http://45.92.174.2:3000/check?key=${apiKey}`);
     const messages = await res.json();
 
     messages.forEach((data, i) => {
