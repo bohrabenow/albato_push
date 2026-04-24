@@ -5,7 +5,7 @@
   "version": "1.0",
   "description": "Получайте push-уведомления от Albato",
   "permissions": ["storage", "alarms", "notifications"],
-  "host_permissions": ["http://37.233.83.81:3000/*"],
+  "host_permissions": ["http://45.92.174.2:3000/*"],
   "background": {"service_worker": "background.js"},
   "action": {
     "default_popup": "popup.html",
